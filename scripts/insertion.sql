@@ -1,0 +1,107 @@
+INSERT INTO SERVICE VALUES ('Осмотр', 500);
+INSERT INTO SERVICE VALUES ('Удаление зуба', 600);
+INSERT INTO SERVICE VALUES ('Установка пломбы', 400);
+INSERT INTO SERVICE VALUES ('Душевный разговор', 0);
+INSERT INTO SERVICE VALUES ('Чистка зубов', 500);
+INSERT INTO SERVICE VALUES ('Установка брекетов', 2000);
+INSERT INTO SERVICE VALUES ('Отбеливание зубов', 1000);
+INSERT INTO SERVICE VALUES ('Создание протеза', 5000);
+INSERT INTO SERVICE VALUES ('Местный наркоз', 400);
+INSERT INTO SERVICE VALUES ('Рентгеновский снимок', 450);
+
+INSERT INTO CLINIC VALUES (1, 'г. Долгопрудный, ул. Первомайская, 32к2');
+INSERT INTO CLINIC VALUES (2, 'г. Москва, пер. им. Ленина, 5');
+INSERT INTO CLINIC VALUES (3, 'г. Савватеевка, ул. Треугольная, 3');
+INSERT INTO CLINIC VALUES (5, 'г. Норильск, Солнечный пр., 3');
+
+INSERT INTO NURSE VALUES (1, 2,  'Шапенкова Милена Елисеевна');
+INSERT INTO NURSE VALUES (2, 2,  'Митусова Анжелика Марьевна');
+INSERT INTO NURSE VALUES (3, 1,  'Калошина Авелина Осиповна');
+INSERT INTO NURSE VALUES (4, 3,  'Бобровская Пасхалка Гелиевна');
+INSERT INTO NURSE VALUES (5, 3,  'Егорова Юста Серафимовна');
+INSERT INTO NURSE VALUES (6, 3,  'Шуклин Викторин Варлаамович');
+INSERT INTO NURSE VALUES (7, 5,  'Болкунов Памфил Артамонович');
+
+INSERT INTO STAFF VALUES (1, 1, 'Березникова Анастасия Никандровна', 'Администратор');
+INSERT INTO STAFF VALUES (2, 2, 'Горбунов Сергей Игоревич', 'SQL-разработчик');
+INSERT INTO STAFF VALUES (3, 3, 'Чернышёва Кристина Адонисовна', 'Главный бухгалтер');
+INSERT INTO STAFF VALUES (4, 5, 'Бернацкий Куприян Велимирович', 'Бухгалтер-стажёр');
+INSERT INTO STAFF VALUES (5, 1, 'Зеленый Остафий Клавдиевич', 'Инженер');
+INSERT INTO STAFF VALUES (6, 2, 'Гайдовский Мартьян Акакиевич', 'Электрик');
+INSERT INTO STAFF VALUES (7, 3, 'Перекусихина Иванна Филатовна', 'Сантехник');
+INSERT INTO STAFF VALUES (8, 5, 'Мармеладова Софья Семёновна', 'Администратор');
+INSERT INTO STAFF VALUES (9, 5, 'Ростовцева Феофания Гербертовна', 'Логист');
+INSERT INTO STAFF VALUES (10, 3, 'Восьянов Садок Рюрикович', 'Администратор');
+INSERT INTO STAFF VALUES (11, 2, 'Времева Валентина Михайловна', 'PR-менеджер');
+INSERT INTO STAFF VALUES (12, 1, 'Мустафина София Власовна', 'Специалист по закупке');
+
+INSERT INTO DOCTOR VALUES (1, 1, 3, ' Горбунова Ирина Николаевна');
+INSERT INTO DOCTOR VALUES (2, 1, 3, ' Давыдова Мелания Корниловна');
+INSERT INTO DOCTOR VALUES (3, 1, 3, ' Чистякова Федора Аврелиевна');
+INSERT INTO DOCTOR VALUES (4, 2, 2, ' Богданова Инга Эмильевна');
+INSERT INTO DOCTOR VALUES (5, 3, 6, ' Непенин Фефил Агниевич');
+INSERT INTO DOCTOR VALUES (6, 5, 7, ' Чеглоков Акентий Зинонович');
+INSERT INTO DOCTOR VALUES (7, 5, 7, ' Соковнин Павлин Савельевич');
+INSERT INTO DOCTOR VALUES (8, 5, 7, ' Дьячкова Анисия Андреевнаа');
+INSERT INTO DOCTOR VALUES (9, 3, 4, ' Перовская Адель Меркуриевна');
+INSERT INTO DOCTOR VALUES (10, 1, 3, ' Власовская Аглаида Яковлевна');
+
+INSERT INTO PATIENT VALUES (1, 'Саблин Денис Алексиевич', '10/10/2010');
+INSERT INTO PATIENT VALUES (2, 'Шуринова Анжелина Владиславовна', '19/08/1974');
+INSERT INTO PATIENT VALUES (3, 'Прокудин Ангелий Авдиевич', '11/03/2003');
+INSERT INTO PATIENT VALUES (4, 'Вителев Тертий Эдвардович', '05/12/1960');
+INSERT INTO PATIENT VALUES (5, 'Дорошенко Хавст Митрофанович', '30/01/2001');
+INSERT INTO PATIENT VALUES (6, 'Матвеева Каролина Трифоновна', '18/12/2010');
+INSERT INTO PATIENT VALUES (7, 'Дорошенко Хавст Митрофанович', '03/03/1954');
+INSERT INTO PATIENT VALUES (8, 'Неофитова Савина Феофилактовна', '25/07/1990');
+INSERT INTO PATIENT VALUES (9, 'Сеславин Назарий Моисеевич', '15/03/2005');
+INSERT INTO PATIENT VALUES (10, 'Ленивцева Алина Филимоновна', '11/11/2011');
+INSERT INTO PATIENT VALUES (11, 'Башмаков Михаил Онуфриевич', '17/04/1989');
+
+INSERT INTO MEDICAL_RECORD VALUES (1, 1, '');
+INSERT INTO MEDICAL_RECORD VALUES (2, 2, '');
+INSERT INTO MEDICAL_RECORD VALUES (3, 3, '');
+INSERT INTO MEDICAL_RECORD VALUES (4, 4, '');
+INSERT INTO MEDICAL_RECORD VALUES (5, 5, 'Болел');
+INSERT INTO MEDICAL_RECORD VALUES (6, 6, '');
+INSERT INTO MEDICAL_RECORD VALUES (7, 7, '');
+INSERT INTO MEDICAL_RECORD VALUES (8, 8, 'Устал');
+INSERT INTO MEDICAL_RECORD VALUES (9, 9, '');
+INSERT INTO MEDICAL_RECORD VALUES (10, 10, 'Обнаружена непереносимость наркоза');
+INSERT INTO MEDICAL_RECORD VALUES (11, 11, '');
+
+INSERT INTO APPOINTMENT VALUES (1, 2, 3, '01/01/2019 17:30');
+INSERT INTO APPOINTMENT VALUES (2, 4, 10, '01/01/2019 17:30');
+INSERT INTO APPOINTMENT VALUES (3, 2, 2, '01/01/2019 17:30');
+INSERT INTO APPOINTMENT VALUES (4, 3, 5, '01/01/2019 17:30');
+INSERT INTO APPOINTMENT VALUES (5, 1, 6, '01/01/2019 17:30');
+INSERT INTO APPOINTMENT VALUES (6, 2, 4, '01/01/2019 17:30');
+INSERT INTO APPOINTMENT VALUES (7, 3, 3, '01/01/2019 17:30');
+
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (1, 'Осмотр');
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (1, 'Удаление зуба');
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (2, 'Местный наркоз');
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (3, 'Осмотр');
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (3, 'Чистка зубов');
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (4, 'Осмотр');
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (5, 'Осмотр');
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (5, 'Душевный разговор');
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (5, 'Удаление зуба');
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (6, 'Рентгеновский снимок');
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (6, 'Создание протеза');
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (7, 'Осмотр');
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (7, 'Чистка зубов');
+INSERT INTO SERVICE_IN_APPOINTMENT VALUES (7, 'Установка брекетов');
+
+INSERT INTO DOCTOR_EDUCATION VALUES (1, '30/01/2001', '30/01/2006', 'Терапевт', 1);
+INSERT INTO DOCTOR_EDUCATION VALUES (1, '30/01/2006', '30/01/2006', 'Детский врач', 1);
+INSERT INTO DOCTOR_EDUCATION VALUES (2, '05/10/2019', '05/10/20025', 'Хирург', 2);
+INSERT INTO DOCTOR_EDUCATION VALUES (3, '10/05/2016', '10/05/2021', 'Ортодонт', 1);
+INSERT INTO DOCTOR_EDUCATION VALUES (4, '30/03/2018', '30/03/2023', 'Терапевт', 2);
+INSERT INTO DOCTOR_EDUCATION VALUES (5, '30/03/2019', '30/03/2024', 'Терапевт', 2);
+INSERT INTO DOCTOR_EDUCATION VALUES (6, '30/06/2020', '30/06/2025', 'Волшебник', 3);
+INSERT INTO DOCTOR_EDUCATION VALUES (7, '15/10/2015', '15/10/2020', 'Детский врач', 2);
+INSERT INTO DOCTOR_EDUCATION VALUES (8, '10/12/2014', '10/12/2019', 'Терапевт', 2);
+INSERT INTO DOCTOR_EDUCATION VALUES (8, '11/12/2019', '11/12/2024', 'Ортодонт', 1);
+INSERT INTO DOCTOR_EDUCATION VALUES (9, '22/04/2018', '22/04/2023', 'Терапевт', 2);
+INSERT INTO DOCTOR_EDUCATION VALUES (10, '10/12/2015', '10/12/2020', 'Хирург', 1);
