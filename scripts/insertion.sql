@@ -1,15 +1,15 @@
-INSERT INTO SERVICE VALUES ('Осмотр', '10/10/2012', '31/12/2050', 500);
-INSERT INTO SERVICE VALUES ('Удаление зуба', '10/10/2012', '31/12/2050', 600);
-INSERT INTO SERVICE VALUES ('Установка пломбы', '10/10/2012', '01/03/2017',  400);
-INSERT INTO SERVICE VALUES ('Установка пломбы', '02/03/2017', '31/12/2050',  650);
-INSERT INTO SERVICE VALUES ('Душевный разговор', '10/10/2012', '31/12/2050', 0);
-INSERT INTO SERVICE VALUES ('Чистка зубов', '10/10/2012', '31/12/2050', 500);
-INSERT INTO SERVICE VALUES ('Установка брекетов', '10/10/2012', '31/12/2050', 2000);
-INSERT INTO SERVICE VALUES ('Отбеливание зубов','10/10/2012', '31/12/2050',  1000);
-INSERT INTO SERVICE VALUES ('Создание протеза','10/10/2012', '31/12/2050',  5000);
-INSERT INTO SERVICE VALUES ('Местный наркоз','10/10/2012', '31/12/2050',  400);
-INSERT INTO SERVICE VALUES ('Рентгеновский снимок', '10/10/2012', '31/08/2018', 450);
-INSERT INTO SERVICE VALUES ('Рентгеновский снимок', '19/08/2019', '31/12/2050', 500);
+INSERT INTO SERVICE VALUES ('Осмотр', '10/10/2012', 500);
+INSERT INTO SERVICE VALUES ('Удаление зуба', '10/10/2012', 600);
+INSERT INTO SERVICE VALUES ('Установка пломбы', '10/10/2012', 400);
+INSERT INTO SERVICE VALUES ('Установка пломбы', '02/03/2017', 650);
+INSERT INTO SERVICE VALUES ('Душевный разговор', '10/10/2012', 0);
+INSERT INTO SERVICE VALUES ('Чистка зубов', '10/10/2012', 500);
+INSERT INTO SERVICE VALUES ('Установка брекетов', '10/10/2012', 2000);
+INSERT INTO SERVICE VALUES ('Отбеливание зубов','10/10/2012', 1000);
+INSERT INTO SERVICE VALUES ('Создание протеза','10/10/2012', 5000);
+INSERT INTO SERVICE VALUES ('Местный наркоз','10/10/2012', 400);
+INSERT INTO SERVICE VALUES ('Рентгеновский снимок', '10/10/2012', 450);
+INSERT INTO SERVICE VALUES ('Рентгеновский снимок', '19/08/2019', 500);
 
 INSERT INTO CLINIC VALUES (1, 'г. Долгопрудный, ул. Первомайская, 32к2');
 INSERT INTO CLINIC VALUES (2, 'г. Москва, пер. им. Ленина, 5');
